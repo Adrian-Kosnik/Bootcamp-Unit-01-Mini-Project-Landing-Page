@@ -14,6 +14,7 @@ header {
     /* background-color: rgba(222, 140, 60, 0.4); */
     background-color: rgba(143, 73, 3, 0.4);
     border-bottom: 1px solid black;
+    z-index: 10000;
 }
 
 header h1 {
@@ -34,4 +35,38 @@ img {
     object-fit: cover;
 }
 
+/* #main-content {
+    display: flex;
+} */
 
+#container {
+    position: relative;
+}
+
+#contact-form {
+    position: absolute;
+    width: 30rem;
+    height: 40rem;
+    border: 1px solid black;
+    border-radius: 2%;
+
+    bottom: 100px;
+    right: 100px;
+    background-color: rgba(143, 73, 3, 0.4);
+}
+
+#contact-form h2 {
+    margin: 1rem;
+    font-size: 3rem;
+    text-align: center;
+}
+
+#contact-form input {
+    display: block;
+    margin: 4rem;
+}
+
+#contact-form button {
+    width: 200px;
+    height: 30px;
+}
