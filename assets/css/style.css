@@ -63,10 +63,28 @@ img {
 
 #contact-form input {
     display: block;
-    margin: 4rem;
+    width: 400px;
+    height: 40px;
+    padding: 20px;
+    margin: 0;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+textarea {
+    display: block;
+    position: absolute;
+    width: 400px;
+    height: 300px;
+    resize: none;
 }
 
 #contact-form button {
     width: 200px;
     height: 30px;
+    margin: 0;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
 }
